@@ -1,0 +1,42 @@
+div{
+    display: inline-block;
+}
+.border{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #C50B0B;
+}
+.main{
+    flex-direction: column;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    background-color: black;
+}
+.top{
+    color:#C50B0B;
+    font-family: "Irish Grover";
+    display: flex;
+    flex-direction: row;
+}
+.money_div{
+    margin-top: 40px;
+    margin-left: 60px;
+    
+}
+.money{
+    border: solid 4px #C50B0B;
+    position: relative;
+    padding: 11px;
+    border-radius: 10px;
+    font-size: 30px;
+}
+.blackjack-div{
+    flex: 1;
+    font-size: 100px;
+}
