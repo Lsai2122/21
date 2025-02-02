@@ -1,0 +1,70 @@
+div{
+    font-family: "jersey 15";
+}
+.background{
+    background-color: #C50B0B;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding-bottom: 1000px;
+}
+.heading{
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.rules{
+    font-size: 27px;
+    padding-left: 30px;
+    line-height: 40px;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+}
+.player,.dealer{
+    border: solid 2px black;
+    border-radius: 8px;
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.player-head{
+    text-align: center;
+}
+.card{
+    padding-bottom: 20px;
+}
+.card1{
+    transform: rotate(-17deg);
+    margin-top: 10px;
+}
+.card2,.card2-2{
+    transform: rotate(17deg);
+    margin-top: 10px;
+    margin-left: -50px;
+    padding-top: 8px;
+}
+.card2-2{
+    height: 100px;
+}
+.dealer{
+    margin-left: 200px;
+}
+.preference{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: "jockey one";
+    font-size: 70px;
+    margin-left: 90px;
+}
+.spade,.heart,.club,.diamond{
+    height:100px;
+    padding: 0 15px;
+}

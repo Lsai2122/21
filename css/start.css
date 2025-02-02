@@ -1,5 +1,6 @@
 div{
     display: inline-block;
+    font-family: "Irish Grover";
 }
 .border{
     position: absolute;
@@ -29,6 +30,7 @@ div{
     width: 200px;
 }
 .money{
+    cursor: pointer;
     border: solid 4px #C50B0B;
     position: relative;
     padding: 11px;
@@ -38,13 +40,16 @@ div{
     left: 30px;
 }
 .blackjack-div{
+    display: flex;
+    flex-direction: column;
     margin-top: 75px;
     flex: 1;
     font-size: 50px;
+    align-items: center;
 }
 .blackjack{
-    margin-left: 32%;
-    border: solid 14px #C50B0B;
+    cursor: pointer;
+    border: solid 10px #C50B0B;
     padding: 10px 50px;
     border-radius: 10px;
 }
@@ -52,6 +57,8 @@ div{
     width: 200px;
 }
 .player{
+    cursor: pointer;
+    font-family: "Irish Grover";
     border: solid 4px #C50B0B;
     position: absolute;
     padding: 11px;
@@ -62,23 +69,27 @@ div{
 }
 .image-div{
     display: flex;
+    flex-direction: column;
     justify-content:space-around;
+    align-items: center;
 }
 .image{
     flex: 1;
-    margin-left: 31%;
 }
 .bottom{
     font-family: "Irish Grover";
     color:#C50B0B;
     display: flex;
     flex-direction: row;
+    align-items: end;
 }
 .options-div{
     top:0;
-    width:250px;
+    width:200px;
 }
 .options{
+    cursor: pointer;
+    font-family: "Irish Grover";
     border: solid 4px #C50B0B;
     position: relative;
     padding: 11px;
@@ -94,9 +105,22 @@ div{
     flex-direction: column;
     align-items: center;
 }
-.start-game-div{
-
+.start-game-div,.frds-game{
+    cursor: pointer;
+    padding: 10px 40px;
+    border: solid 4px #C50B0B;
+    font-size: 40px;
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
 .quit-div{
-    width: 250px;
+    width: 200px;
+}
+.quit{
+    cursor: pointer;
+    border: solid 4px #C50B0B;
+    padding: 11px;
+    border-radius: 10px;
+    font-size: 30px;
+
 }
