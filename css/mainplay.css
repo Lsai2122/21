@@ -1,0 +1,58 @@
+body{
+    font-family: "jersey 15";
+}
+.head{
+    background-color:#C50B0B;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 50px;
+    right: 0;
+    z-index: 1000;
+}
+.side{
+    background-color:#C50B0B;
+    position: fixed;
+    top: 50px;
+    left: 0;
+    bottom: 0;
+    width: 60px;
+    z-index: 1000;
+}
+.main{
+    background-color: black;
+    margin-top: 50px;
+    margin-left: 52px;
+    z-index: 0;
+    color: white;
+}
+.dealer-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.dealer{
+    display: inline-flex;
+    border: solid 3px #C50B0B;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+.heading{
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+}
+.cards-div{
+    flex: 1;
+    padding: 0 10px;
+}
+.cards{
+    height: 150px;
+    padding: 2px;
+}
+.count{
+    padding: 5px 10px 20px 10px;
+}
