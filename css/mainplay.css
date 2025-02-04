@@ -26,12 +26,12 @@ body{
     z-index: 0;
     color: white;
 }
-.dealer-div{
+.dealer-div,.players-div{
     display: flex;
     justify-content: center;
     margin-top: 100px;
 }
-.dealer{
+.dealer,.player{
     display: inline-flex;
     border: solid 3px #C50B0B;
     color: white;
@@ -44,6 +44,7 @@ body{
     font-size: 30px;
     text-align: center;
     padding: 20px;
+    color: white;
 }
 .cards-div{
     flex: 1;
@@ -55,4 +56,11 @@ body{
 }
 .count{
     padding: 5px 10px 20px 10px;
+}
+.players{
+    display: flex;
+    flex-direction: column;
+}
+.players-div{
+    margin-top: -50px;
 }
