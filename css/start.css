@@ -17,7 +17,7 @@ div{
     left: 5px;
     right: 5px;
     bottom: 5px;
-    background-color: black;
+    background-color: rgb(15,15,15);
 }
 .top{
     color:#C50B0B;
@@ -98,6 +98,7 @@ div{
     border-radius: 10px;
     font-size: 30px;
     left: 30px;
+
 }
 .start{
     flex: 1;
