@@ -20,47 +20,65 @@ body{
     z-index: 1000;
 }
 .main{
-    background-color: black;
-    margin-top: 50px;
-    margin-left: 52px;
-    z-index: 0;
-    color: white;
-}
-.dealer-div,.players-div{
+    margin-top: 20px;
+    position: fixed;
+    background-color:black;
+    top: 50px;
+    left: 60px;
+    right: 0;
+    bottom: 0;
+    z-index: 1000;
     display: flex;
-    justify-content: center;
-    margin-top: 100px;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
-.dealer,.player{
-    display: inline-flex;
-    border: solid 3px #C50B0B;
-    color: white;
+.dealer-div{
     display: flex;
+    flex: 4;
     flex-direction: column;
     align-items: center;
-    border-radius: 10px;
 }
-.heading{
-    font-size: 30px;
-    text-align: center;
-    padding: 20px;
-    color: white;
-}
-.cards-div{
+.gap{
     flex: 1;
-    padding: 0 10px;
 }
-.cards{
-    height: 150px;
-    padding: 2px;
+.dealer{
+    width:200px;
+    flex: 1;
+    border: solid 5px #C50B0B;
+    border-radius: 15px;
 }
-.count{
-    padding: 5px 10px 20px 10px;
+.dealer-title{
+    margin: 0;
+    color: white;
+    font-size: 47px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: white;
 }
-.players{
+.dealer-cards{
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px;
+}
+.dealer-cards img{
+    width: 75px;
+    margin: 0;
+}
+.dealer-counter{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: underline;
+    margin: 0;
+
 }
 .players-div{
-    margin-top: -50px;
+    flex: 7;
+    background-color: lightgreen;
+    display: flex;
+}
+.player-div{
+    width: 374px;
+    background-color: lightblue;
+    margin: 10px;
 }
